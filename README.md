@@ -26,16 +26,16 @@ Modules all at the same time, either standalone, or with any other thingSoC Proc
 
 In this example, we use the [Grovey_I2CHUB](https://github.com/thingSoC/TSOC_GROVEY_I2CHUB) with the Teensy3.x to support a Grove 16x2 LCD panel.
 Since the Grove 16x2 LCD panel is a 5V peripheral, the [Grovey_I2CHUB](https://github.com/thingSoC/TSOC_GROVEY_I2CHUB) perform voltage level translation
-from teh 3.3V Teensy3.x processor to the 5V LCD controller.
+from the 3.3V Teensy3.x processor to the 5V LCD controller.
 
-[![thingSoC TSOC_TEENSY3X](https://raw.githubusercontent.com/thingSoC/TSOC_TEENSY3X/master/TSOC_TEENSY3X/images/teensy3.1with Grove_5V_I2C_LCD_panel.png?raw=true)*TSOC_TEENSY3X*](https://github.com/thingSoC/TSOC_TEENSY3X)
+[![thingSoC TSOC_TEENSY3X](https://raw.githubusercontent.com/thingSoC/TSOC_TEENSY3X/master/TSOC_TEENSY3X/images/product/teensy3.1with Grove_5V_I2C_LCD_panel.png?raw=true)*TSOC_TEENSY3X*](https://github.com/thingSoC/TSOC_TEENSY3X)
 
 ---------------------------------------
 
 ## TSOC_Teensy3x with Mikrobus "Click" peripherals
 
 
-[![thingSoC TSOC_TEENSY3X](https://raw.githubusercontent.com/thingSoC/TSOC_TEENSY3X/master/TSOC_TEENSY3X/images/TSOC_Teensy3x_with_Click.png?raw=true)*TSOC_TEENSY3X*](https://github.com/thingSoC/TSOC_TEENSY3X)
+[![thingSoC TSOC_TEENSY3X](https://raw.githubusercontent.com/thingSoC/TSOC_TEENSY3X/master/TSOC_TEENSY3X/images/product/TSOC_Teensy3x_with_Click.png?raw=true)*TSOC_TEENSY3X*](https://github.com/thingSoC/TSOC_TEENSY3X)
 
 
 ---------------------------------------

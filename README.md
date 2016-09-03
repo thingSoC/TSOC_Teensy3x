@@ -32,6 +32,14 @@ from teh 3.3V Teensy3.x processor to the 5V LCD controller.
 
 ---------------------------------------
 
+## TSOC_Teensy3x with Mikrobus "Click" peripherals
+
+
+[![thingSoC TSOC_TEENSY3X](https://raw.githubusercontent.com/thingSoC/TSOC_TEENSY3X/master/TSOC_TEENSY3X/images/TSOC_Teensy3x_with_Click.png?raw=true)*TSOC_TEENSY3X*](https://github.com/thingSoC/TSOC_TEENSY3X)
+
+
+---------------------------------------
+
 ## TSOC_TEENSY3X Arduino Sketch Examples
 
 Under the "examples" directory are several Arduino IDE examples for using the TSOC_TEENSY3X board with Arduino IDE.

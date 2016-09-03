@@ -1,4 +1,15 @@
-# TSOC_TEENSY3X
+# TSOC_Teensy3x
+
+The **TSOC_Teensy3x** allows you to connect [thingSoC](http://thingsoc.github.io/), [Mikrobus](http://www.mikroe.com/mikrobus/), 
+and/or [Grove System](http://www.seeedstudio.com/blog/2016/03/09/tutorial-intro-to-grove-connectors-for-arduinoraspberry-pi-projects/) 
+Modules all at the same time, either standalone, or with any other thingSoC Processor or Radio module.
+This gives you maximum flexiblity for parts selection and reuse. 
+
+The thingSoC "Grovey Series" was designed as "Everyday Electronics", a no-frills, low cost, approach to modular embedded product design.
+thingSoC boards are similar in size to most break-out-boards (BOBs), but feature a standardized stacking pinout, as well as an I2C metadata store (EEPROM)
+to indicate what peripherals are installed.
+
+[![thingSoC TSOC_GROVEY_FOUR](https://raw.githubusercontent.com/thingSoC/TSOC_GROVEY_FOUR/master/TSOC_GROVEY_FOUR/images/product/TSOC_GROVEY_FOUR.png?raw=true)TSOC_GROVEY_FOUR](https://github.com/thingSoC/TSOC_GROVEY_FOUR)
 
 
 
@@ -11,7 +22,6 @@ These reference designs can serve as starting templates for user designs.
 ---------------------------------------
 
 ## TSOC_TEENSY3X Application Pictures
-
 
 
 [![thingSoC TSOC_TEENSY3X](https://raw.githubusercontent.com/thingSoC/TSOC_TEENSY3X/master/TSOC_TEENSY3X/images/TSOC_TEENSY3X_top.png?raw=true)*TSOC_TEENSY3X*](https://github.com/thingSoC/TSOC_TEENSY3X)
@@ -27,20 +37,6 @@ Using the Arduino "Wire" library for I2C communications, it is simple to control
  
  
 ```
-
----------------------------------------
-## TSOC_TEENSY3X Programming
-
-You can reprogram the board using any Grove UART adapter :
-
-In order to reprogram the Cypress PSoC4 device, you will need to download and install the PSoC Creator tool, which includes a serial bootloader host application.
-
-Select Tools -> Bootloader Host 
-
-Then select the hex (cyacd) file that you wish to program, and the COM: port of your device. Proess the "Upload" button to reflash teh device.
-
-[![thingSoC TSOC_TEENSY3X](https://raw.githubusercontent.com/thingSoC/TSOC_TEENSY3X/master/TSOC_TEENSY3X/images/product/TSOC_TEENSY3X_bootloader.png?raw=true)PSoC Creator Bootloader Host](https://github.com/thingSoC/TSOC_TEENSY3X)
-
 
 ---------------------------------------
 ## Other Applications

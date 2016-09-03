@@ -61,10 +61,10 @@ Revision 1.0 - Initial Layout
 ## TSOC_TEENSY3X Model Images
 
 
-[![thingSoC TSOC_TEENSY3X](https://raw.githubusercontent.com/thingSoC/TSOC_TEENSY3X/master/TSOC_TEENSY3X/images/TSOC_TEENSY3X_top.png?raw=true)TSOC_TEENSY3X](https://github.com/thingSoC/TSOC_TEENSY3X)
+[![thingSoC TSOC_TEENSY3X](https://github.com/thingSoC/TSOC_Teensy3x/blob/master/TSOC_Teensy3x/images/TSOC_TEENSY3X_top.png?raw=true)TSOC_TEENSY3X](https://github.com/thingSoC/TSOC_TEENSY3X)
 
 
-[![thingSoC TSOC_TEENSY3X](https://raw.githubusercontent.com/thingSoC/TSOC_TEENSY3X/master/TSOC_TEENSY3X/images/TSOC_TEENSY3X_bot.png?raw=true)TSOC_TEENSY3X](https://github.com/thingSoC/TSOC_TEENSY3X)
+[![thingSoC TSOC_TEENSY3X](https://github.com/thingSoC/TSOC_Teensy3x/blob/master/TSOC_Teensy3x/images/TSOC_TEENSY3X_bot.png?raw=true)TSOC_TEENSY3X](https://github.com/thingSoC/TSOC_TEENSY3X)
 
 
 ---------------------------------------

@@ -47,7 +47,7 @@ and so, the [Grovey_I2CHUB](https://github.com/thingSoC/TSOC_GROVEY_I2CHUB) is n
 
 Under the Arduino "examples" directory are many Arduino IDE examples for using the Teensy board with Arduino IDE,
 provided by [PJRC](https://www.pjrc.com/). Paul provides [setup and installation instructions](https://www.pjrc.com/teensy/tutorial.html) for the Teensy.
-What the **TSOC_Teensy3x** adaptor board provides is an easy "plug-n-play" way to connect many different peripherals.
+What the **TSOC_Teensy3x** adaptor board provides is an easy "plug-n-play" way to connect many different peripherals to the Teensy.
 
 ---------------------------------------
 

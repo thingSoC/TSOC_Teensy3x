@@ -10,7 +10,7 @@ thingSoC boards are similar in size to most break-out-boards (BOBs), but feature
 to indicate what peripherals are installed.
 
 
-[![thingSoC TSOC_TEENSY3X](https://raw.githubusercontent.com/thingSoC/TSOC_TEENSY3X/master/TSOC_TEENSY3X/images/product/TSOC_Teensy3x.png?raw=true)TSOC_TEENSY3X](https://github.com/thingSoC/TSOC_TEENSY3X)
+[![thingSoC TSOC_TEENSY3X](https://github.com/thingSoC/TSOC_Teensy3x/blob/master/TSOC_Teensy3x/images/product/TSOC_Teensy3x.png?raw=true)TSOC_TEENSY3X](https://github.com/thingSoC/TSOC_TEENSY3X)
 
 **thingSoC Reference Designs** are example thingSoC implementations that implement
 various reference and testing circuits for demonstrating the use of the thingSoC libraries.

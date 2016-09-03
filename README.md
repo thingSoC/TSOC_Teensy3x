@@ -9,11 +9,8 @@ The thingSoC "Grovey Series" was designed as "Everyday Electronics", a no-frills
 thingSoC boards are similar in size to most break-out-boards (BOBs), but feature a standardized stacking pinout, as well as an I2C metadata store (EEPROM)
 to indicate what peripherals are installed.
 
-[![thingSoC TSOC_GROVEY_FOUR](https://raw.githubusercontent.com/thingSoC/TSOC_GROVEY_FOUR/master/TSOC_GROVEY_FOUR/images/product/TSOC_GROVEY_FOUR.png?raw=true)TSOC_GROVEY_FOUR](https://github.com/thingSoC/TSOC_GROVEY_FOUR)
 
-
-
-[![thingSoC TSOC_TEENSY3X](https://raw.githubusercontent.com/thingSoC/TSOC_TEENSY3X/master/TSOC_TEENSY3X/images/TSOC_TEENSY3X_iso.png?raw=true)TSOC_TEENSY3X](https://github.com/thingSoC/TSOC_TEENSY3X)
+[![thingSoC TSOC_TEENSY3X](https://raw.githubusercontent.com/thingSoC/TSOC_TEENSY3X/master/TSOC_TEENSY3X/images/product/TSOC_Teensy3x.png?raw=true)TSOC_TEENSY3X](https://github.com/thingSoC/TSOC_TEENSY3X)
 
 **thingSoC Reference Designs** are example thingSoC implementations that implement
 various reference and testing circuits for demonstrating the use of the thingSoC libraries.
@@ -24,7 +21,7 @@ These reference designs can serve as starting templates for user designs.
 ## TSOC_TEENSY3X Application Pictures
 
 
-[![thingSoC TSOC_TEENSY3X](https://raw.githubusercontent.com/thingSoC/TSOC_TEENSY3X/master/TSOC_TEENSY3X/images/TSOC_TEENSY3X_top.png?raw=true)*TSOC_TEENSY3X*](https://github.com/thingSoC/TSOC_TEENSY3X)
+[![thingSoC TSOC_TEENSY3X](https://raw.githubusercontent.com/thingSoC/TSOC_TEENSY3X/master/TSOC_TEENSY3X/images/TSOC_Teensy3x_top.png?raw=true)*TSOC_TEENSY3X*](https://github.com/thingSoC/TSOC_TEENSY3X)
 
 ---------------------------------------
 

@@ -5,7 +5,7 @@ The **TSOC_Teensy3x** is an adapter board for the excellent [Teensy Development 
 The **TSOC_Teensy3x** allows you to connect [thingSoC](http://thingsoc.github.io/), [Mikrobus](http://www.mikroe.com/mikrobus/), 
 and/or [Grove System](http://www.seeedstudio.com/blog/2016/03/09/tutorial-intro-to-grove-connectors-for-arduinoraspberry-pi-projects/) 
 Modules all at the same time, either standalone, or with any other thingSoC Processor or Radio module.
-This gives you maximum flexiblity for parts selection and reuse. 
+This gives you maximum flexiblity for sensor and actuator selection and reuse. 
 
 The thingSoC "Grovey Series" was designed as "Everyday Electronics", a no-frills, low cost, approach to modular embedded product design.
 thingSoC boards are similar in size to most break-out-boards (BOBs), but feature a standardized stacking pinout, as well as an I2C metadata store (EEPROM)
@@ -44,19 +44,9 @@ from the 3.3V Teensy3.x processor to the 5V LCD controller.
 
 ## TSOC_TEENSY3X Arduino Sketch Examples
 
-Under the "examples" directory are several Arduino IDE examples for using the TSOC_TEENSY3X board with Arduino IDE.
-Using the Arduino "Wire" library for I2C communications, it is simple to control the TSOC_TEENSY3X
-
-```c
- 
- 
-```
-
----------------------------------------
-## Other Applications
-
-The TSOC_TEENSY3X can also drive other devices, such as Servos, Motors, Relays and more.
-
+Under the Arduino "examples" directory are many Arduino IDE examples for using the Teensy board with Arduino IDE,
+provided by [PJRC](https://www.pjrc.com/). Paul provides [setup and installation instructions](https://www.pjrc.com/teensy/tutorial.html) for the Teensy.
+What the **TSOC_Teensy3x** adaptor board provides is an easy "plug-n-play" way to connect many different peripherals.
 
 ---------------------------------------
 

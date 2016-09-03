@@ -1,5 +1,7 @@
 # TSOC_Teensy3x
 
+The **TSOC_Teensy3x** is an adapter board for the excellent [Teensy Development Board](https://www.pjrc.com/teensy/) from [PJRC](https://www.pjrc.com/).
+
 The **TSOC_Teensy3x** allows you to connect [thingSoC](http://thingsoc.github.io/), [Mikrobus](http://www.mikroe.com/mikrobus/), 
 and/or [Grove System](http://www.seeedstudio.com/blog/2016/03/09/tutorial-intro-to-grove-connectors-for-arduinoraspberry-pi-projects/) 
 Modules all at the same time, either standalone, or with any other thingSoC Processor or Radio module.

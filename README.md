@@ -30,6 +30,9 @@ and so, the [Grovey_I2CHUB](https://github.com/thingSoC/TSOC_GROVEY_I2CHUB) is n
 
 ## TSOC_Teensy3x with Mikrobus "Click" peripherals
 
+The [Teensy3.x Adapter](https://github.com/thingSoC/TSOC_Teensy3x) also allows you to plug in [Mikrobus](http://www.mikroe.com/mikrobus/) 
+peripherals and ["Click Modules"](http://www.mikroe.com/click/), and use these along with the 
+[Grove System](http://www.seeedstudio.com/blog/2016/03/09/tutorial-intro-to-grove-connectors-for-arduinoraspberry-pi-projects/) modules. 
 
 [![thingSoC TSOC_TEENSY3X](https://github.com/thingSoC/TSOC_Teensy3x/blob/master/TSOC_Teensy3x/images/product/TSOC_Teensy3x_with_Click.png?raw=true)*TSOC_TEENSY3X*](https://github.com/thingSoC/TSOC_TEENSY3X)
 

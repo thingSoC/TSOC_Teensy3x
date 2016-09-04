@@ -71,9 +71,9 @@ Revision 1.0 - Initial Layout
 
 ## TSOC_TEENSY3X Documentation Index <a name="TSOC_TEENSY3X_documentation_index"/>
 
-[TSOC_TEENSY3X Project](http://thingsoc.github.io/projects/TSOC_TEENSY3X.html)
+[TSOC_TEENSY3X Project](https://github.com/thingSoC/TSOC_Teensy3x)
 
-[TSOC_TEENSY3X Hardware](https://github.com/thingSoC/TSOC_TEENSY3X/tree/master/TSOC_TEENSY3X/hardware)
+[TSOC_TEENSY3X Hardware](https://github.com/thingSoC/TSOC_Teensy3x/tree/master/TSOC_Teensy3x/hardware)
 
 
 ---------------------------------------

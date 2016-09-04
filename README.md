@@ -17,10 +17,6 @@ to indicate what peripherals are installed.
 
 ## TSOC_TEENSY3X Application Pictures
 
-The **TSOC_Teensy3x** allows you to connect [thingSoC](http://thingsoc.github.io/), [Mikrobus](http://www.mikroe.com/mikrobus/), 
-and/or [Grove System](http://www.seeedstudio.com/blog/2016/03/09/tutorial-intro-to-grove-connectors-for-arduinoraspberry-pi-projects/) 
-Modules all at the same time, either standalone, or with any other thingSoC Processor or Radio module.
-
 In this example, we use the [Grovey_I2CHUB](https://github.com/thingSoC/TSOC_GROVEY_I2CHUB) with the Teensy3.x to support a Grove 16x2 LCD panel.
 Since the Grove 16x2 LCD panel is a 5V peripheral, the [Grovey_I2CHUB](https://github.com/thingSoC/TSOC_GROVEY_I2CHUB) performs the voltage level translation
 necessary to go from the 3.3V Teensy3.x processor to the 5V LCD controller. The **TSOC_Teensy3x** also has an I2C output jack, but it is at a 3.3V level,

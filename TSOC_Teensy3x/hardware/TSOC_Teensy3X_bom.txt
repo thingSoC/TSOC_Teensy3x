@@ -1,5 +1,7 @@
 Partlist exported from U:/PatternAgents/eagle/TSOC_Modules/TSOC_Teensy3x/TSOC_Teensy3x/TSOC_Teensy3X.sch at 9/3/2016 11:11:48 AM
 
+Revision 1.1
+
 Qty Value             Device                      Package          Parts                  Description                                                                                                                                    
 2   4P-2.0            GROVE-CONNECTOR-DIP(4P-2.0) HW4-2.0          J1, J2                 320110033                                                                                                                                      
 2   M12               12 Pin, 2.54mm spacing,     M12              J3,J4

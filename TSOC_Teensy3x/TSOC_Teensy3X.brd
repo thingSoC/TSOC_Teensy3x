@@ -190,7 +190,7 @@ D7</text>
 <text x="4.826" y="12.827" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">I2C</text>
 <text x="6.096" y="11.43" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">GND</text>
 <text x="6.096" y="9.652" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">3V3</text>
-<text x="19.304" y="13.462" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">Rev. 1.0</text>
+<text x="19.304" y="13.462" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">Rev. 1.1</text>
 <rectangle x1="14.224" y1="10.668" x2="30.734" y2="13.208" layer="22"/>
 <text x="30.48" y="13.462" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">Serial Number:</text>
 <text x="30.734" y="17.78" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">TSOC_TEENSY3x</text>
@@ -202,8 +202,8 @@ D7</text>
 <text x="29.972" y="0.508" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">D20</text>
 <text x="27.432" y="0.508" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">D17</text>
 <text x="24.892" y="0.508" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">D16</text>
-<text x="22.098" y="1.27" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">D1</text>
-<text x="19.812" y="1.016" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">D0</text>
+<text x="19.558" y="0.508" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">D1</text>
+<text x="22.098" y="0.508" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">D0</text>
 <text x="17.272" y="0.508" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">D19</text>
 <text x="14.732" y="0.508" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">D18</text>
 <text x="12.192" y="0.508" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">5V0</text>
@@ -226,8 +226,8 @@ D7</text>
 <text x="29.21" y="0.508" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90">D20</text>
 <text x="26.67" y="0.508" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90">D17</text>
 <text x="24.13" y="0.508" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90">D16</text>
-<text x="21.336" y="1.27" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90">D1</text>
-<text x="19.05" y="1.016" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90">D0</text>
+<text x="18.796" y="0.508" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90">D1</text>
+<text x="21.336" y="0.508" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90">D0</text>
 <text x="16.51" y="0.508" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90">D19</text>
 <text x="13.97" y="0.508" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90">D18</text>
 <text x="11.43" y="0.508" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90">5V0</text>
@@ -2912,13 +2912,9 @@ design rules under a new name.</description>
 <elements>
 <element name="TEENSY" library="Teensy3.0" package="TEENSY_3.0_BASIC" value="TEENSY_3.0_BASIC" x="25.654" y="15.24" smashed="yes" rot="R270"/>
 <element name="U$2" library="thingSoC" package="TSOC-BB-BRD-DIM" value="TSOC-PCB-SINGLE" x="25.654" y="15.24" smashed="yes" rot="R270"/>
-<element name="3V3" library="PatternAgents-ProtoPads" package="JMP-2-NC" value="JMP-2-NC" x="39.37" y="3.81" smashed="yes" rot="R270">
-<attribute name="BOM" value="EXCLUDE" x="39.37" y="3.81" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="39.1795" y="2.032" size="0.6096" layer="25" font="vector" ratio="15"/>
-</element>
-<element name="5V0" library="PatternAgents-ProtoPads" package="JMP-2-NC" value="JMP-2-NC" x="42.418" y="5.08" smashed="yes" rot="R180">
-<attribute name="BOM" value="EXCLUDE" x="42.418" y="5.08" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="43.688" y="5.7785" size="0.6096" layer="25" font="vector" ratio="15" rot="R270"/>
+<element name="3V3" library="PatternAgents-ProtoPads" package="JMP-2-NC" value="JMP-2-NC" x="39.878" y="4.064" smashed="yes" rot="R270">
+<attribute name="BOM" value="EXCLUDE" x="39.878" y="4.064" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="39.6875" y="2.286" size="0.6096" layer="25" font="vector" ratio="15"/>
 </element>
 <element name="TSOC" library="thingSoC" package="TSOC-BB-S24" value="TSOC-24-BB" x="25.654" y="15.24" smashed="yes" rot="R270"/>
 <element name="J1" library="Seeed-Connector -2016" package="HW4-2.0" value="4P-2.0" x="2.286" y="8.89" smashed="yes" rot="R90">
@@ -2944,13 +2940,10 @@ design rules under a new name.</description>
 <contactref element="TEENSY" pad="GND"/>
 <contactref element="TEENSY" pad="GND1"/>
 <contactref element="TEENSY" pad="AGND"/>
-<via x="9.144" y="0.762" extent="1-16" drill="0.3556"/>
 <wire x1="7.112" y1="29.718" x2="40.132" y2="29.718" width="0.6096" layer="16"/>
 <via x="7.112" y="29.718" extent="1-16" drill="0.3556"/>
 <wire x1="9.144" y1="15.24" x2="7.112" y2="15.24" width="0.6096" layer="1"/>
 <via x="7.112" y="15.24" extent="1-16" drill="0.3556"/>
-<wire x1="40.132" y1="0.762" x2="9.144" y2="0.762" width="0.6096" layer="16"/>
-<via x="40.132" y="0.762" extent="1-16" drill="0.3556"/>
 <contactref element="TSOC" pad="12B"/>
 <contactref element="TSOC" pad="12C"/>
 <polygon width="0.254" layer="1" spacing="0.254" pour="hatch" isolate="0.254" orphans="yes">
@@ -2973,15 +2966,9 @@ design rules under a new name.</description>
 <vertex x="44.45" y="1.524"/>
 <vertex x="42.926" y="0"/>
 </polygon>
-<wire x1="39.624" y1="7.62" x2="39.624" y2="7.112" width="0.6096" layer="1"/>
-<wire x1="39.624" y1="7.112" x2="40.894" y2="5.588" width="0.6096" layer="1"/>
-<wire x1="40.894" y1="5.588" x2="40.894" y2="3.048" width="0.6096" layer="1"/>
-<wire x1="40.894" y1="3.048" x2="40.132" y2="2.286" width="0.6096" layer="1"/>
-<wire x1="40.132" y1="2.286" x2="40.132" y2="0.762" width="0.6096" layer="1"/>
 <wire x1="7.112" y1="15.24" x2="7.112" y2="11.684" width="0.6096" layer="1"/>
 <wire x1="7.112" y1="11.684" x2="7.112" y2="3.81" width="0.6096" layer="1"/>
 <wire x1="7.112" y1="3.81" x2="9.144" y2="3.81" width="0.6096" layer="1"/>
-<wire x1="9.144" y1="3.81" x2="9.144" y2="0.762" width="0.6096" layer="1"/>
 <wire x1="7.112" y1="29.718" x2="7.112" y2="26.67" width="0.6096" layer="1"/>
 <wire x1="7.112" y1="24.384" x2="7.112" y2="15.24" width="0.6096" layer="1"/>
 <wire x1="9.144" y1="26.67" x2="7.112" y2="26.67" width="0.6096" layer="1"/>
@@ -3002,6 +2989,9 @@ design rules under a new name.</description>
 <wire x1="41.91" y1="25.146" x2="40.386" y2="25.146" width="0.6096" layer="1"/>
 <wire x1="40.386" y1="25.146" x2="40.132" y2="25.4" width="0.6096" layer="1"/>
 <wire x1="40.132" y1="25.4" x2="40.132" y2="26.67" width="0.6096" layer="1"/>
+<wire x1="39.624" y1="7.62" x2="39.624" y2="14.986" width="0.6096" layer="16"/>
+<wire x1="39.624" y1="14.986" x2="42.164" y2="17.526" width="0.6096" layer="16"/>
+<wire x1="42.164" y1="17.526" x2="42.164" y2="22.86" width="0.6096" layer="16"/>
 </signal>
 <signal name="!ATN">
 <contactref element="TSOC" pad="6B"/>
@@ -3042,26 +3032,6 @@ design rules under a new name.</description>
 <wire x1="6.874" y1="7.89" x2="7.874" y2="8.89" width="0.254" layer="16"/>
 <wire x1="7.874" y1="8.89" x2="12.446" y2="8.89" width="0.254" layer="16"/>
 <wire x1="12.446" y1="8.89" x2="12.954" y2="9.398" width="0.254" layer="16"/>
-</signal>
-<signal name="RXD">
-<contactref element="TEENSY" pad="1"/>
-<wire x1="37.084" y1="22.86" x2="37.084" y2="19.05" width="0.254" layer="1"/>
-<via x="37.084" y="19.05" extent="1-16" drill="0.3556"/>
-<wire x1="37.084" y1="19.05" x2="20.574" y2="19.05" width="0.254" layer="16"/>
-<via x="20.574" y="19.05" extent="1-16" drill="0.3556"/>
-<wire x1="20.574" y1="19.05" x2="20.574" y2="5.08" width="0.254" layer="1"/>
-<wire x1="20.574" y1="5.08" x2="21.844" y2="3.81" width="0.254" layer="1"/>
-<contactref element="TSOC" pad="7C"/>
-</signal>
-<signal name="TXD">
-<contactref element="TEENSY" pad="0"/>
-<wire x1="39.624" y1="22.86" x2="39.624" y2="15.24" width="0.254" layer="1"/>
-<via x="39.624" y="15.24" extent="1-16" drill="0.3556"/>
-<wire x1="39.624" y1="15.24" x2="18.034" y2="15.24" width="0.254" layer="16"/>
-<via x="18.034" y="15.24" extent="1-16" drill="0.3556"/>
-<wire x1="18.034" y1="15.24" x2="18.034" y2="5.08" width="0.254" layer="1"/>
-<wire x1="18.034" y1="5.08" x2="19.304" y2="3.81" width="0.254" layer="1"/>
-<contactref element="TSOC" pad="8C"/>
 </signal>
 <signal name="SCK">
 <contactref element="TEENSY" pad="13"/>
@@ -3176,33 +3146,23 @@ design rules under a new name.</description>
 <wire x1="29.464" y1="5.08" x2="26.924" y2="7.62" width="0.254" layer="1"/>
 <contactref element="TSOC" pad="4C"/>
 </signal>
-<signal name="VIN">
-<contactref element="TEENSY" pad="VIN"/>
-<contactref element="5V0" pad="1"/>
-<wire x1="42.8189" y1="5.08" x2="42.8189" y2="6.9651" width="0.6096" layer="1"/>
-<wire x1="42.8189" y1="6.9651" x2="42.164" y2="7.62" width="0.6096" layer="1"/>
-</signal>
 <signal name="3V3I">
 <contactref element="TEENSY" pad="3.3V"/>
 <contactref element="TEENSY" pad="3.3V1"/>
 <contactref element="3V3" pad="1"/>
-<wire x1="37.084" y1="7.62" x2="37.338" y2="7.366" width="0.6096" layer="1"/>
-<wire x1="37.338" y1="7.366" x2="37.338" y2="6.7509" width="0.6096" layer="1"/>
-<wire x1="37.338" y1="6.7509" x2="39.37" y2="4.2109" width="0.6096" layer="1"/>
 <wire x1="9.144" y1="17.78" x2="37.084" y2="17.78" width="0.6096" layer="16"/>
 <via x="37.084" y="17.78" extent="1-16" drill="0.3556"/>
 <wire x1="37.084" y1="17.78" x2="37.084" y2="7.62" width="0.6096" layer="1"/>
+<wire x1="37.084" y1="7.62" x2="37.084" y2="7.2589" width="0.6096" layer="1"/>
+<wire x1="37.084" y1="7.2589" x2="39.878" y2="4.4649" width="0.6096" layer="1"/>
 </signal>
 <signal name="5V0">
-<contactref element="5V0" pad="2"/>
 <wire x1="11.684" y1="3.81" x2="11.684" y2="5.588" width="0.6096" layer="16"/>
-<wire x1="11.684" y1="5.588" x2="40.132" y2="5.588" width="0.6096" layer="16"/>
+<wire x1="11.684" y1="5.588" x2="41.656" y2="5.588" width="0.6096" layer="16"/>
 <contactref element="TSOC" pad="11C"/>
-<via x="41.91" y="3.556" extent="1-16" drill="0.3556"/>
-<wire x1="41.91" y1="3.556" x2="41.91" y2="4.9847" width="0.6096" layer="1"/>
-<wire x1="41.91" y1="4.9847" x2="42.0053" y2="5.08" width="0.6096" layer="1"/>
-<wire x1="40.132" y1="5.588" x2="40.132" y2="5.334" width="0.6096" layer="16"/>
-<wire x1="40.132" y1="5.334" x2="41.91" y2="3.556" width="0.6096" layer="16"/>
+<contactref element="TEENSY" pad="VIN"/>
+<wire x1="41.656" y1="5.588" x2="42.164" y2="6.096" width="0.6096" layer="16"/>
+<wire x1="42.164" y1="6.096" x2="42.164" y2="7.62" width="0.6096" layer="16"/>
 </signal>
 <signal name="3V3">
 <contactref element="3V3" pad="2"/>
@@ -3214,10 +3174,9 @@ design rules under a new name.</description>
 <via x="5.842" y="1.778" extent="1-16" drill="0.3556"/>
 <wire x1="5.842" y1="22.606" x2="5.842" y2="9.906" width="0.6096" layer="1"/>
 <wire x1="5.842" y1="9.906" x2="5.842" y2="1.778" width="0.6096" layer="1"/>
-<wire x1="5.842" y1="1.778" x2="38.862" y2="1.778" width="0.6096" layer="16"/>
-<via x="38.862" y="1.778" extent="1-16" drill="0.3556"/>
-<wire x1="38.862" y1="1.778" x2="38.862" y2="2.8893" width="0.6096" layer="1"/>
-<wire x1="38.862" y1="2.8893" x2="39.37" y2="3.3973" width="0.6096" layer="1"/>
+<wire x1="5.842" y1="1.778" x2="39.878" y2="1.778" width="0.6096" layer="16"/>
+<via x="39.878" y="1.778" extent="1-16" drill="0.3556"/>
+<wire x1="39.878" y1="1.778" x2="39.878" y2="3.6513" width="0.6096" layer="1"/>
 <contactref element="J1" pad="3"/>
 <contactref element="J2" pad="3"/>
 <wire x1="2.286" y1="9.89" x2="5.826" y2="9.89" width="0.6096" layer="1"/>
@@ -3247,6 +3206,27 @@ design rules under a new name.</description>
 <wire x1="7.874" y1="21.59" x2="18.796" y2="21.59" width="0.254" layer="16"/>
 <wire x1="18.796" y1="21.59" x2="19.304" y2="22.098" width="0.254" layer="16"/>
 <wire x1="19.304" y1="22.098" x2="19.304" y2="22.86" width="0.254" layer="16"/>
+</signal>
+<signal name="RXD1">
+<contactref element="TEENSY" pad="0"/>
+<via x="39.624" y="19.05" extent="1-16" drill="0.3556"/>
+<wire x1="39.624" y1="19.05" x2="20.574" y2="19.05" width="0.254" layer="16"/>
+<via x="20.574" y="19.05" extent="1-16" drill="0.3556"/>
+<wire x1="20.574" y1="19.05" x2="20.574" y2="5.08" width="0.254" layer="1"/>
+<wire x1="20.574" y1="5.08" x2="21.844" y2="3.81" width="0.254" layer="1"/>
+<contactref element="TSOC" pad="7C"/>
+<wire x1="39.624" y1="19.05" x2="39.624" y2="22.86" width="0.254" layer="1"/>
+</signal>
+<signal name="TXD1">
+<contactref element="TEENSY" pad="1"/>
+<via x="35.56" y="15.24" extent="1-16" drill="0.3556"/>
+<wire x1="35.56" y1="15.24" x2="18.034" y2="15.24" width="0.254" layer="16"/>
+<via x="18.034" y="15.24" extent="1-16" drill="0.3556"/>
+<wire x1="18.034" y1="15.24" x2="18.034" y2="5.08" width="0.254" layer="1"/>
+<wire x1="18.034" y1="5.08" x2="19.304" y2="3.81" width="0.254" layer="1"/>
+<contactref element="TSOC" pad="8C"/>
+<wire x1="35.56" y1="15.24" x2="35.56" y2="21.336" width="0.254" layer="1"/>
+<wire x1="35.56" y1="21.336" x2="37.084" y2="22.86" width="0.254" layer="1"/>
 </signal>
 </signals>
 </board>

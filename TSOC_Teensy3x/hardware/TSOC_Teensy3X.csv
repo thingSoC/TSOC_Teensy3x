@@ -1,0 +1,9 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"BOM";"VALUE";
+"1";"";"WPAD-1-PTH";"WPAD-1-PTH-2.54";"GND";"Wire Pad - Single";"EXCLUDE";"";
+"2";"4P-2.0";"GROVE-CONNECTOR-DIP(4P-2.0)";"HW4-2.0";"J1, J2";"320110033";"";"4P-2.0";
+"4";"FIDUCIALUFIDUCIAL";"FIDUCIALUFIDUCIAL";"MICRO-FIDUCIAL";"FID1, FID2, FID3, FID4";"Fiducial Alignment Points";"";"";
+"1";"JMP-2-NC";"JMP-2-NC";"JMP-2-NC";"3V3";"Two Terminal Jumper - Normally Closed";"EXCLUDE";"";
+"1";"TEENSY_3.0_BASIC";"TEENSY_3.0_BASIC";"TEENSY_3.0_BASIC";"TEENSY";"Basic Teensy 3.0 with none of the 'inner' pins enabled. See '+4', 'AllAnalogPins", and 'AllPins' packages for additional pin holes, as needed.";"";"";
+"1";"TSOC-24-BB";"TSOC-24-BB";"TSOC-BB-S24";"TSOC";"thingSoC Twenty-Four(24) Pin Socket";"";"";
+"1";"TSOC-LOGO-LRG";"TSOC-LOGO-LRG";"TSOC-LOGO-LRG";"U$5";"thingSoC Logo";"";"";
+"1";"TSOC-PCB-SINGLE";"TSOC-PCB-SINGLE";"TSOC-BB-BRD-DIM";"U$2";"thingSoC PCB Outlines";"";"";

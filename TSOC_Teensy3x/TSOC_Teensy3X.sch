@@ -15478,7 +15478,6 @@ Various fiducial points for machine vision alignment.</description>
 <part name="TEENSY" library="Teensy3.0" deviceset="TEENSY_3.0_BASIC" device=""/>
 <part name="U$2" library="thingSoC" deviceset="TSOC-PCB" device="-SINGLE"/>
 <part name="3V3" library="PatternAgents-ProtoPads" deviceset="JMP-2-NC" device=""/>
-<part name="5V0" library="PatternAgents-ProtoPads" deviceset="JMP-2-NC" device=""/>
 <part name="TSOC" library="thingSoC" deviceset="TSOC-24" device="-BB"/>
 <part name="J1" library="Seeed-Connector -2016" deviceset="GROVE-CONNECTOR-DIP(4P-2.0)" device="" value="4P-2.0"/>
 <part name="J2" library="Seeed-Connector -2016" deviceset="GROVE-CONNECTOR-DIP(4P-2.0)" device="" value="4P-2.0"/>
@@ -15500,7 +15499,6 @@ Open Source Sockets for IoT</text>
 <instance part="TEENSY" gate="G$1" x="177.8" y="116.84"/>
 <instance part="U$2" gate="G$1" x="177.8" y="157.48"/>
 <instance part="3V3" gate="G$1" x="195.58" y="129.54"/>
-<instance part="5V0" gate="G$1" x="195.58" y="132.08"/>
 <instance part="TSOC" gate="TSOC" x="106.68" y="114.3"/>
 <instance part="J1" gate="G$1" x="87.63" y="157.48" rot="R180"/>
 <instance part="J2" gate="G$1" x="118.11" y="157.48" rot="R180"/>
@@ -15599,30 +15597,6 @@ Open Source Sockets for IoT</text>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="156.21" x2="97.79" y2="156.21" width="0.1524" layer="91"/>
 <label x="97.79" y="156.21" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
-</segment>
-</net>
-<net name="RXD" class="0">
-<segment>
-<wire x1="132.08" y1="88.9" x2="137.16" y2="88.9" width="0.1524" layer="91"/>
-<label x="137.16" y="88.9" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="TSOC" gate="TSOC" pin="RXD"/>
-</segment>
-<segment>
-<pinref part="TEENSY" gate="G$1" pin="1"/>
-<wire x1="162.56" y1="127" x2="157.48" y2="127" width="0.1524" layer="91"/>
-<label x="157.48" y="127" size="1.016" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="TXD" class="0">
-<segment>
-<wire x1="132.08" y1="91.44" x2="137.16" y2="91.44" width="0.1524" layer="91"/>
-<label x="137.16" y="91.44" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
-<pinref part="TSOC" gate="TSOC" pin="TXD"/>
-</segment>
-<segment>
-<pinref part="TEENSY" gate="G$1" pin="0"/>
-<wire x1="162.56" y1="129.54" x2="157.48" y2="129.54" width="0.1524" layer="91"/>
-<label x="157.48" y="129.54" size="1.016" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -15805,13 +15779,6 @@ Open Source Sockets for IoT</text>
 <label x="198.12" y="111.76" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
-<net name="VIN" class="0">
-<segment>
-<pinref part="TEENSY" gate="G$1" pin="VIN"/>
-<pinref part="5V0" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="132.08" x2="195.58" y2="132.08" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="3V3I" class="0">
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="3.3V"/>
@@ -15821,9 +15788,9 @@ Open Source Sockets for IoT</text>
 </net>
 <net name="5V0" class="0">
 <segment>
-<pinref part="5V0" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="132.08" x2="203.2" y2="132.08" width="0.1524" layer="91"/>
 <label x="203.2" y="132.08" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
+<pinref part="TEENSY" gate="G$1" pin="VIN"/>
+<wire x1="203.2" y1="132.08" x2="193.04" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="78.74" y1="116.84" x2="73.66" y2="116.84" width="0.1524" layer="91"/>
@@ -15875,6 +15842,30 @@ Open Source Sockets for IoT</text>
 <pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="156.21" x2="128.27" y2="156.21" width="0.1524" layer="91"/>
 <label x="128.27" y="156.21" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
+</segment>
+</net>
+<net name="RXD1" class="0">
+<segment>
+<pinref part="TEENSY" gate="G$1" pin="0"/>
+<wire x1="162.56" y1="129.54" x2="157.48" y2="129.54" width="0.1524" layer="91"/>
+<label x="157.48" y="129.54" size="1.016" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="132.08" y1="88.9" x2="137.16" y2="88.9" width="0.1524" layer="91"/>
+<label x="137.16" y="88.9" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
+<pinref part="TSOC" gate="TSOC" pin="RXD"/>
+</segment>
+</net>
+<net name="TXD1" class="0">
+<segment>
+<pinref part="TEENSY" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="127" x2="157.48" y2="127" width="0.1524" layer="91"/>
+<label x="157.48" y="127" size="1.016" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="132.08" y1="91.44" x2="137.16" y2="91.44" width="0.1524" layer="91"/>
+<label x="137.16" y="91.44" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
+<pinref part="TSOC" gate="TSOC" pin="TXD"/>
 </segment>
 </net>
 </nets>

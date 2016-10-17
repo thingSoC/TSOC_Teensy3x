@@ -14940,43 +14940,33 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 </library>
 <library name="Seeed-Connector -2016">
 <packages>
-<package name="HW4-2.0">
+<package name="HW4-2.0-90D">
 <wire x1="-5" y1="1" x2="-5" y2="-1" width="0.127" layer="21"/>
-<wire x1="5" y1="1.5" x2="5" y2="-1.5" width="0.254" layer="21"/>
-<wire x1="-5" y1="2.2" x2="-5" y2="-2.2" width="0.254" layer="21"/>
-<wire x1="-5" y1="-2.2" x2="-3.2" y2="-2.2" width="0.254" layer="21"/>
-<wire x1="3.2" y1="-2.2" x2="5" y2="-2.2" width="0.254" layer="21"/>
-<wire x1="5" y1="-2.2" x2="5" y2="2.2" width="0.254" layer="21"/>
-<wire x1="-5" y1="2.2" x2="5" y2="2.2" width="0.254" layer="21"/>
-<wire x1="-5" y1="-2.2" x2="-5" y2="-2.8" width="0.254" layer="21"/>
-<wire x1="-5" y1="-2.8" x2="-3.2" y2="-2.8" width="0.254" layer="21"/>
-<wire x1="-3.2" y1="-2.8" x2="-3.2" y2="-2.2" width="0.254" layer="21"/>
-<wire x1="-3.2" y1="-2.2" x2="3.2" y2="-2.2" width="0.254" layer="21"/>
-<wire x1="3.2" y1="-2.2" x2="3.2" y2="-2.8" width="0.254" layer="21"/>
-<wire x1="3.2" y1="-2.8" x2="5" y2="-2.8" width="0.254" layer="21"/>
-<wire x1="5" y1="-2.8" x2="5" y2="-2.2" width="0.254" layer="21"/>
-<wire x1="-5" y1="2.2" x2="5" y2="2.2" width="0.254" layer="39"/>
-<wire x1="5" y1="2.2" x2="5" y2="-2.8" width="0.254" layer="39"/>
-<wire x1="-5" y1="-2.8" x2="-5" y2="2.2" width="0.254" layer="39"/>
-<wire x1="-4.953" y1="-2.794" x2="-3.175" y2="-2.794" width="0.254" layer="39"/>
-<wire x1="-3.175" y1="-2.794" x2="-3.175" y2="-2.159" width="0.254" layer="39"/>
-<wire x1="-3.175" y1="-2.159" x2="-1.778" y2="-2.159" width="0.254" layer="39"/>
-<wire x1="-1.778" y1="-2.159" x2="-1.778" y2="-4.191" width="0.254" layer="39"/>
-<wire x1="-1.778" y1="-4.191" x2="1.778" y2="-4.191" width="0.254" layer="39"/>
-<wire x1="1.778" y1="-4.191" x2="1.778" y2="-2.159" width="0.254" layer="39"/>
-<wire x1="1.778" y1="-2.159" x2="3.175" y2="-2.159" width="0.254" layer="39"/>
-<wire x1="3.175" y1="-2.159" x2="3.175" y2="-2.794" width="0.254" layer="39"/>
-<wire x1="3.175" y1="-2.794" x2="4.953" y2="-2.794" width="0.254" layer="39"/>
+<wire x1="-5" y1="8.4" x2="-5" y2="1.6" width="0.254" layer="21"/>
+<wire x1="-5" y1="1.6" x2="-5" y2="-1.5" width="0.254" layer="21"/>
+<wire x1="5" y1="1.6" x2="5" y2="-1.5" width="0.254" layer="21"/>
+<wire x1="5" y1="1.6" x2="5" y2="8.4" width="0.254" layer="21"/>
+<wire x1="-5" y1="-1.5" x2="5" y2="-1.5" width="0.254" layer="21"/>
+<wire x1="-5" y1="8.5" x2="5" y2="8.5" width="0.254" layer="39"/>
+<wire x1="5" y1="8.5" x2="5" y2="-1.4" width="0.254" layer="39"/>
+<wire x1="5" y1="-1.4" x2="-5" y2="-1.4" width="0.254" layer="39"/>
+<wire x1="-5" y1="-1.4" x2="-5" y2="8.5" width="0.254" layer="39"/>
+<wire x1="-5" y1="1.6" x2="5" y2="1.6" width="0.254" layer="21"/>
+<wire x1="-5" y1="8.4" x2="-2.8" y2="8.4" width="0.254" layer="21"/>
+<wire x1="-2.8" y1="8.4" x2="-2.8" y2="7.4" width="0.254" layer="21"/>
+<wire x1="-2.8" y1="7.4" x2="2.8" y2="7.4" width="0.254" layer="21"/>
+<wire x1="2.8" y1="7.4" x2="2.8" y2="8.4" width="0.254" layer="21"/>
+<wire x1="2.8" y1="8.4" x2="5" y2="8.4" width="0.254" layer="21"/>
 <pad name="1" x="-3" y="0" drill="0.8" diameter="1.27" shape="square"/>
-<text x="-2.54" y="2.54" size="0.889" layer="25" font="vector" ratio="11">&gt;NAME</text>
-<text x="-2.54" y="-1.905" size="0.889" layer="27" font="vector" ratio="11">&gt;VALUE</text>
 <pad name="2" x="-1" y="0" drill="0.8" diameter="1.27"/>
 <pad name="3" x="1" y="0" drill="0.8" diameter="1.27"/>
 <pad name="4" x="3" y="0" drill="0.8" diameter="1.27"/>
+<text x="-1.905" y="-3.175" size="0.889" layer="25" font="vector" ratio="11">&gt;NAME</text>
+<text x="-1.905" y="3.81" size="0.889" layer="27" font="vector" ratio="11">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
-<symbol name="GROVE-CONNECTOR-DIP@1">
+<symbol name="GROVE-CONNECTOR-DIP">
 <wire x1="-1.27" y1="5.08" x2="3.81" y2="5.08" width="0.254" layer="94"/>
 <wire x1="3.81" y1="5.08" x2="3.81" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="3.81" y1="-5.08" x2="-1.27" y2="-5.08" width="0.254" layer="94"/>
@@ -14990,13 +14980,13 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="GROVE-CONNECTOR-DIP(4P-2.0)" prefix="J" uservalue="yes">
-<description>320110033</description>
+<deviceset name="GROVE-CONNECTOR-DIP-90D(4P-2.0)" prefix="J" uservalue="yes">
+<description>320110034</description>
 <gates>
-<gate name="G$1" symbol="GROVE-CONNECTOR-DIP@1" x="0" y="0"/>
+<gate name="G$1" symbol="GROVE-CONNECTOR-DIP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="HW4-2.0">
+<device name="" package="HW4-2.0-90D">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -15005,7 +14995,7 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
 </connects>
 <technologies>
 <technology name="">
-<attribute name="VALUE" value="4P-2.0" constant="no"/>
+<attribute name="VALUE" value="4P-2.0-90D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -15195,14 +15185,15 @@ Various fiducial points for machine vision alignment.</description>
 <part name="TEENSY" library="Teensy3.0" deviceset="TEENSY_3.0_BASIC" device=""/>
 <part name="U$2" library="thingSoC" deviceset="TSOC-PCB" device="-SINGLE"/>
 <part name="TSOC" library="thingSoC" deviceset="TSOC-24" device="-BB"/>
-<part name="J1" library="Seeed-Connector -2016" deviceset="GROVE-CONNECTOR-DIP(4P-2.0)" device="" value="4P-2.0"/>
-<part name="J2" library="Seeed-Connector -2016" deviceset="GROVE-CONNECTOR-DIP(4P-2.0)" device="" value="4P-2.0"/>
+<part name="ANALOG" library="Seeed-Connector -2016" deviceset="GROVE-CONNECTOR-DIP-90D(4P-2.0)" device="" value="4P-2.0-90D"/>
+<part name="UART" library="Seeed-Connector -2016" deviceset="GROVE-CONNECTOR-DIP-90D(4P-2.0)" device="" value="4P-2.0-90D"/>
 <part name="FRAME1" library="PatternAgents-Beautify" deviceset="FRAME_ASIZE_LANDSCAPE" device=""/>
 <part name="U$5" library="thingSoC" deviceset="TSOC-LOGO" device="-LRG"/>
 <part name="FID2" library="TSOC-ESP8266-BASE" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FID3" library="TSOC-ESP8266-BASE" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FID4" library="TSOC-ESP8266-BASE" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FID1" library="TSOC-ESP8266-BASE" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="5V0" library="PatternAgents-ProtoPads" deviceset="WPAD-1" device="-PTH"/>
 <part name="GND" library="PatternAgents-ProtoPads" deviceset="WPAD-1" device="-PTH"/>
 </parts>
 <sheets>
@@ -15213,10 +15204,10 @@ Open Source Sockets for IoT</text>
 </plain>
 <instances>
 <instance part="TEENSY" gate="G$1" x="177.8" y="116.84"/>
-<instance part="U$2" gate="G$1" x="177.8" y="157.48"/>
+<instance part="U$2" gate="G$1" x="154.94" y="25.4"/>
 <instance part="TSOC" gate="TSOC" x="106.68" y="114.3"/>
-<instance part="J1" gate="G$1" x="87.63" y="157.48" rot="R180"/>
-<instance part="J2" gate="G$1" x="118.11" y="157.48" rot="R180"/>
+<instance part="ANALOG" gate="G$1" x="87.63" y="157.48" rot="R180"/>
+<instance part="UART" gate="G$1" x="118.11" y="157.48" rot="R180"/>
 <instance part="FRAME1" gate="G$2" x="172.72" y="0"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="U$5" gate="G$1" x="176.53" y="30.48"/>
@@ -15224,7 +15215,8 @@ Open Source Sockets for IoT</text>
 <instance part="FID3" gate="G$1" x="269.24" y="33.02"/>
 <instance part="FID4" gate="G$1" x="264.16" y="27.94"/>
 <instance part="FID1" gate="G$1" x="269.24" y="27.94"/>
-<instance part="GND" gate="G$1" x="170.18" y="172.72" rot="R180"/>
+<instance part="5V0" gate="G$1" x="175.26" y="160.02" rot="R180"/>
+<instance part="GND" gate="G$1" x="175.26" y="149.86" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -15251,21 +15243,21 @@ Open Source Sockets for IoT</text>
 <label x="203.2" y="124.46" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="4"/>
+<pinref part="ANALOG" gate="G$1" pin="4"/>
 <wire x1="91.44" y1="161.29" x2="97.79" y2="161.29" width="0.1524" layer="91"/>
 <label x="97.79" y="161.29" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="4"/>
+<pinref part="UART" gate="G$1" pin="4"/>
 <wire x1="121.92" y1="161.29" x2="128.27" y2="161.29" width="0.1524" layer="91"/>
 <label x="128.27" y="161.29" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<wire x1="175.26" y1="172.72" x2="172.72" y2="172.72" width="0.1524" layer="91"/>
-<label x="180.34" y="172.72" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
+<wire x1="180.34" y1="149.86" x2="177.8" y2="149.86" width="0.1524" layer="91"/>
+<label x="185.42" y="149.86" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 <pinref part="GND" gate="G$1" pin="1"/>
-<wire x1="172.72" y1="172.72" x2="180.34" y2="172.72" width="0.1524" layer="91"/>
-<junction x="172.72" y="172.72"/>
+<wire x1="177.8" y1="149.86" x2="185.42" y2="149.86" width="0.1524" layer="91"/>
+<junction x="177.8" y="149.86"/>
 </segment>
 </net>
 <net name="!ATN" class="0">
@@ -15291,11 +15283,6 @@ Open Source Sockets for IoT</text>
 <label x="137.16" y="132.08" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 <pinref part="TSOC" gate="TSOC" pin="SCL"/>
 </segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="153.67" x2="97.79" y2="153.67" width="0.1524" layer="91"/>
-<label x="97.79" y="153.67" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
-</segment>
 </net>
 <net name="SDA" class="0">
 <segment>
@@ -15307,11 +15294,6 @@ Open Source Sockets for IoT</text>
 <wire x1="132.08" y1="129.54" x2="137.16" y2="129.54" width="0.1524" layer="91"/>
 <label x="137.16" y="129.54" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 <pinref part="TSOC" gate="TSOC" pin="SDA"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="156.21" x2="97.79" y2="156.21" width="0.1524" layer="91"/>
-<label x="97.79" y="156.21" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -15505,6 +15487,13 @@ Open Source Sockets for IoT</text>
 <label x="73.66" y="116.84" size="1.016" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 <pinref part="TSOC" gate="TSOC" pin="5V0"/>
 </segment>
+<segment>
+<wire x1="180.34" y1="160.02" x2="177.8" y2="160.02" width="0.1524" layer="91"/>
+<label x="185.42" y="160.02" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
+<pinref part="5V0" gate="G$1" pin="1"/>
+<wire x1="177.8" y1="160.02" x2="185.42" y2="160.02" width="0.1524" layer="91"/>
+<junction x="177.8" y="160.02"/>
+</segment>
 </net>
 <net name="3V3" class="0">
 <segment>
@@ -15518,12 +15507,12 @@ Open Source Sockets for IoT</text>
 <pinref part="TSOC" gate="TSOC" pin="3V3"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="3"/>
+<pinref part="ANALOG" gate="G$1" pin="3"/>
 <wire x1="91.44" y1="158.75" x2="97.79" y2="158.75" width="0.1524" layer="91"/>
 <label x="97.79" y="158.75" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="3"/>
+<pinref part="UART" gate="G$1" pin="3"/>
 <wire x1="121.92" y1="158.75" x2="128.27" y2="158.75" width="0.1524" layer="91"/>
 <label x="128.27" y="158.75" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
@@ -15535,7 +15524,7 @@ Open Source Sockets for IoT</text>
 <label x="157.48" y="111.76" size="1.016" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="UART" gate="G$1" pin="1"/>
 <wire x1="121.92" y1="153.67" x2="128.27" y2="153.67" width="0.1524" layer="91"/>
 <label x="128.27" y="153.67" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
@@ -15547,7 +15536,7 @@ Open Source Sockets for IoT</text>
 <label x="157.48" y="109.22" size="1.016" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="UART" gate="G$1" pin="2"/>
 <wire x1="121.92" y1="156.21" x2="128.27" y2="156.21" width="0.1524" layer="91"/>
 <label x="128.27" y="156.21" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
@@ -15574,6 +15563,37 @@ Open Source Sockets for IoT</text>
 <wire x1="132.08" y1="91.44" x2="137.16" y2="91.44" width="0.1524" layer="91"/>
 <label x="137.16" y="91.44" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 <pinref part="TSOC" gate="TSOC" pin="TXD"/>
+</segment>
+</net>
+<net name="A0" class="0">
+<segment>
+<pinref part="TEENSY" gate="G$1" pin="14/A0"/>
+<wire x1="193.04" y1="96.52" x2="198.12" y2="96.52" width="0.1524" layer="91"/>
+<label x="198.12" y="96.52" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
+</segment>
+<segment>
+<pinref part="ANALOG" gate="G$1" pin="1"/>
+<wire x1="91.44" y1="153.67" x2="97.79" y2="153.67" width="0.1524" layer="91"/>
+<label x="97.79" y="153.67" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
+</segment>
+</net>
+<net name="D9" class="0">
+<segment>
+<pinref part="TEENSY" gate="G$1" pin="9"/>
+<wire x1="162.56" y1="106.68" x2="157.48" y2="106.68" width="0.1524" layer="91"/>
+<label x="157.48" y="106.68" size="1.016" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="ANALOG" gate="G$1" pin="2"/>
+<wire x1="91.44" y1="156.21" x2="97.79" y2="156.21" width="0.1524" layer="91"/>
+<label x="97.79" y="156.21" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
+</segment>
+</net>
+<net name="VBAT" class="0">
+<segment>
+<pinref part="TEENSY" gate="G$1" pin="VBAT"/>
+<wire x1="193.04" y1="137.16" x2="203.2" y2="137.16" width="0.1524" layer="91"/>
+<label x="203.2" y="137.16" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
 </nets>

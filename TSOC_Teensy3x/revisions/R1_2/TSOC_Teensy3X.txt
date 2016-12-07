@@ -1,0 +1,12 @@
+Revison 1.2 Notes
+------------------
+
+1) Remove Ground Strap Hole, it was confusing to the assemblers
+2) Remove 3.3V solder jumper it was confusing to the assemblers
+3) Extend rear dimension of PCB and switch to 90 deg (Right Angle) Grove Connectors.
+4) Correct UART Silksreen error (RX/TX printed names are reversed, the signals are okay)
+5) Swap !RTS(D17) with !DTR(D20) to correct PWM pin assignment error
+6) Add J3 (Analog) Grove Connector for Analog sensors, uses A0 & D9
+7) Add silkscreen box/legend for J4/J5 for clarity about connector placement
+
+

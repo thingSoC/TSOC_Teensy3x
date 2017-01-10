@@ -2910,12 +2910,12 @@ design rules under a new name.</description>
 <wire x1="36.068" y1="11.986" x2="39.576" y2="11.986" width="0.8128" layer="16"/>
 <wire x1="39.576" y1="11.986" x2="39.624" y2="11.938" width="0.8128" layer="16"/>
 </signal>
-<signal name="!ATN">
+<signal name="D6">
 <contactref element="TSOC" pad="6B"/>
 <contactref element="TEENSY" pad="6"/>
 <wire x1="24.384" y1="26.67" x2="24.384" y2="22.86" width="0.254" layer="16"/>
 </signal>
-<signal name="SCL">
+<signal name="A5">
 <contactref element="TEENSY" pad="19/A5"/>
 <wire x1="16.764" y1="3.81" x2="15.494" y2="5.08" width="0.254" layer="1"/>
 <wire x1="15.494" y1="5.08" x2="15.494" y2="10.414" width="0.254" layer="1"/>
@@ -2935,7 +2935,7 @@ design rules under a new name.</description>
 <wire x1="15.24" y1="13.97" x2="15.494" y2="13.716" width="0.254" layer="16"/>
 <wire x1="15.494" y1="13.716" x2="15.494" y2="10.414" width="0.254" layer="16"/>
 </signal>
-<signal name="SDA">
+<signal name="A4">
 <contactref element="TEENSY" pad="18/A4"/>
 <wire x1="14.224" y1="3.81" x2="12.954" y2="5.08" width="0.254" layer="1"/>
 <wire x1="12.954" y1="5.08" x2="12.954" y2="9.398" width="0.254" layer="1"/>
@@ -2950,7 +2950,7 @@ design rules under a new name.</description>
 <wire x1="7.874" y1="8.89" x2="12.446" y2="8.89" width="0.254" layer="16"/>
 <wire x1="12.446" y1="8.89" x2="12.954" y2="9.398" width="0.254" layer="16"/>
 </signal>
-<signal name="SCK">
+<signal name="D13">
 <contactref element="TEENSY" pad="13"/>
 <wire x1="18.034" y1="19.05" x2="18.034" y2="25.4" width="0.254" layer="1"/>
 <wire x1="18.034" y1="25.4" x2="19.304" y2="26.67" width="0.254" layer="1"/>
@@ -2961,7 +2961,7 @@ design rules under a new name.</description>
 <wire x1="11.176" y1="19.05" x2="18.034" y2="19.05" width="0.254" layer="16"/>
 <via x="18.034" y="19.05" extent="1-16" drill="0.3556"/>
 </signal>
-<signal name="MISO">
+<signal name="D11">
 <contactref element="TEENSY" pad="11"/>
 <wire x1="11.684" y1="22.86" x2="11.684" y2="23.114" width="0.254" layer="16"/>
 <wire x1="11.684" y1="23.114" x2="13.716" y2="25.146" width="0.254" layer="16"/>
@@ -2969,7 +2969,7 @@ design rules under a new name.</description>
 <wire x1="15.24" y1="25.146" x2="16.764" y2="26.67" width="0.254" layer="16"/>
 <contactref element="TSOC" pad="9B"/>
 </signal>
-<signal name="MOSI">
+<signal name="D12">
 <contactref element="TEENSY" pad="12"/>
 <wire x1="9.144" y1="22.86" x2="9.144" y2="24.13" width="0.254" layer="16"/>
 <wire x1="9.144" y1="24.13" x2="10.16" y2="25.146" width="0.254" layer="16"/>
@@ -2977,7 +2977,7 @@ design rules under a new name.</description>
 <wire x1="12.7" y1="25.146" x2="14.224" y2="26.67" width="0.254" layer="16"/>
 <contactref element="TSOC" pad="10B"/>
 </signal>
-<signal name="!CS">
+<signal name="D10">
 <contactref element="TEENSY" pad="10"/>
 <wire x1="14.224" y1="22.86" x2="16.256" y2="24.892" width="0.254" layer="16"/>
 <wire x1="16.256" y1="24.892" x2="21.336" y2="24.892" width="0.254" layer="16"/>
@@ -2985,31 +2985,31 @@ design rules under a new name.</description>
 <wire x1="21.844" y1="25.4" x2="21.336" y2="24.892" width="0.254" layer="16"/>
 <contactref element="TSOC" pad="7B"/>
 </signal>
-<signal name="SS2">
+<signal name="D4">
 <contactref element="TEENSY" pad="4"/>
 <wire x1="29.464" y1="22.86" x2="29.464" y2="24.13" width="0.254" layer="16"/>
 <wire x1="29.464" y1="24.13" x2="32.004" y2="26.67" width="0.254" layer="16"/>
 <contactref element="TSOC" pad="3B"/>
 </signal>
-<signal name="SS1">
+<signal name="D5">
 <contactref element="TEENSY" pad="5"/>
 <wire x1="26.924" y1="22.86" x2="26.924" y2="24.13" width="0.254" layer="16"/>
 <wire x1="26.924" y1="24.13" x2="29.464" y2="26.67" width="0.254" layer="16"/>
 <contactref element="TSOC" pad="4B"/>
 </signal>
-<signal name="IO2">
+<signal name="D2">
 <contactref element="TEENSY" pad="2"/>
 <wire x1="34.544" y1="22.86" x2="34.544" y2="24.13" width="0.254" layer="16"/>
 <wire x1="34.544" y1="24.13" x2="37.084" y2="26.67" width="0.254" layer="16"/>
 <contactref element="TSOC" pad="1B"/>
 </signal>
-<signal name="IO1">
+<signal name="D3">
 <contactref element="TEENSY" pad="3"/>
 <wire x1="32.004" y1="22.86" x2="32.004" y2="24.13" width="0.254" layer="16"/>
 <wire x1="32.004" y1="24.13" x2="34.544" y2="26.67" width="0.254" layer="16"/>
 <contactref element="TSOC" pad="2B"/>
 </signal>
-<signal name="!IRQ">
+<signal name="A1">
 <contactref element="TSOC" pad="5B"/>
 <contactref element="TEENSY" pad="15/A1"/>
 <wire x1="14.224" y1="7.62" x2="14.224" y2="16.51" width="0.254" layer="1"/>
@@ -3019,12 +3019,12 @@ design rules under a new name.</description>
 <wire x1="28.194" y1="16.51" x2="28.194" y2="25.4" width="0.254" layer="1"/>
 <wire x1="28.194" y1="25.4" x2="26.924" y2="26.67" width="0.254" layer="1"/>
 </signal>
-<signal name="!RTS">
+<signal name="A6">
 <contactref element="TSOC" pad="5C"/>
 <contactref element="TEENSY" pad="20/A6"/>
 <wire x1="26.924" y1="7.62" x2="26.924" y2="3.81" width="0.254" layer="1"/>
 </signal>
-<signal name="!CTS">
+<signal name="A2">
 <contactref element="TEENSY" pad="16/A2"/>
 <wire x1="16.764" y1="7.62" x2="16.764" y2="11.43" width="0.254" layer="1"/>
 <via x="16.764" y="11.43" extent="1-16" drill="0.3556"/>
@@ -3034,25 +3034,25 @@ design rules under a new name.</description>
 <wire x1="23.114" y1="5.08" x2="24.384" y2="3.81" width="0.254" layer="1"/>
 <contactref element="TSOC" pad="6C"/>
 </signal>
-<signal name="!RI">
+<signal name="A9">
 <contactref element="TEENSY" pad="23/A9"/>
 <wire x1="37.084" y1="3.81" x2="37.084" y2="5.08" width="0.254" layer="1"/>
 <wire x1="37.084" y1="5.08" x2="34.544" y2="7.62" width="0.254" layer="1"/>
 <contactref element="TSOC" pad="1C"/>
 </signal>
-<signal name="!DCD">
+<signal name="A8">
 <contactref element="TEENSY" pad="22/A8"/>
 <wire x1="34.544" y1="3.81" x2="34.544" y2="5.08" width="0.254" layer="1"/>
 <wire x1="34.544" y1="5.08" x2="32.004" y2="7.62" width="0.254" layer="1"/>
 <contactref element="TSOC" pad="2C"/>
 </signal>
-<signal name="!DSR">
+<signal name="A7">
 <contactref element="TEENSY" pad="21/A7"/>
 <wire x1="32.004" y1="3.81" x2="32.004" y2="5.08" width="0.254" layer="1"/>
 <wire x1="32.004" y1="5.08" x2="29.464" y2="7.62" width="0.254" layer="1"/>
 <contactref element="TSOC" pad="3C"/>
 </signal>
-<signal name="!DTR">
+<signal name="A3">
 <contactref element="TSOC" pad="4C"/>
 <contactref element="TEENSY" pad="17/A3"/>
 <wire x1="19.304" y1="7.62" x2="19.304" y2="12.446" width="0.254" layer="1"/>
@@ -3105,7 +3105,7 @@ design rules under a new name.</description>
 <wire x1="36.576" y1="10.16" x2="37.084" y2="9.652" width="0.8128" layer="16"/>
 <wire x1="37.084" y1="9.652" x2="37.084" y2="7.62" width="0.8128" layer="16"/>
 </signal>
-<signal name="RXD3">
+<signal name="D7">
 <contactref element="TEENSY" pad="7"/>
 <contactref element="J2" pad="1"/>
 <wire x1="2.286" y1="18.59" x2="7.668" y2="18.59" width="0.254" layer="16"/>
@@ -3116,7 +3116,7 @@ design rules under a new name.</description>
 <wire x1="21.336" y1="20.066" x2="21.844" y2="20.574" width="0.254" layer="16"/>
 <wire x1="21.844" y1="20.574" x2="21.844" y2="22.86" width="0.254" layer="16"/>
 </signal>
-<signal name="TXD3">
+<signal name="D8">
 <contactref element="TEENSY" pad="8"/>
 <contactref element="J2" pad="2"/>
 <wire x1="2.286" y1="20.59" x2="6.874" y2="20.59" width="0.254" layer="16"/>
@@ -3125,7 +3125,7 @@ design rules under a new name.</description>
 <wire x1="18.796" y1="21.59" x2="19.304" y2="22.098" width="0.254" layer="16"/>
 <wire x1="19.304" y1="22.098" x2="19.304" y2="22.86" width="0.254" layer="16"/>
 </signal>
-<signal name="RXD1">
+<signal name="D0">
 <contactref element="TEENSY" pad="0"/>
 <via x="30.734" y="19.05" extent="1-16" drill="0.3556"/>
 <wire x1="30.734" y1="19.05" x2="20.574" y2="19.05" width="0.254" layer="16"/>
@@ -3138,7 +3138,7 @@ design rules under a new name.</description>
 <wire x1="30.988" y1="20.828" x2="37.592" y2="20.828" width="0.254" layer="1"/>
 <wire x1="37.592" y1="20.828" x2="39.624" y2="22.86" width="0.254" layer="1"/>
 </signal>
-<signal name="TXD1">
+<signal name="D1">
 <contactref element="TEENSY" pad="1"/>
 <via x="29.718" y="15.24" extent="1-16" drill="0.3556"/>
 <wire x1="29.718" y1="15.24" x2="18.034" y2="15.24" width="0.254" layer="16"/>

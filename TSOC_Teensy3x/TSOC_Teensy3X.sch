@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -14841,7 +14841,7 @@ Open Source Sockets for IoT</text>
 <label x="110.49" y="182.88" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
-<net name="!ATN" class="0">
+<net name="D6" class="0">
 <segment>
 <wire x1="129.54" y1="78.74" x2="134.62" y2="78.74" width="0.1524" layer="91"/>
 <label x="134.62" y="78.74" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
@@ -14853,7 +14853,7 @@ Open Source Sockets for IoT</text>
 <label x="154.94" y="93.98" size="1.016" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="SCL" class="0">
+<net name="A5" class="0">
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="19/A5"/>
 <wire x1="190.5" y1="88.9" x2="195.58" y2="88.9" width="0.1524" layer="91"/>
@@ -14870,7 +14870,7 @@ Open Source Sockets for IoT</text>
 <label x="110.49" y="138.43" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
-<net name="SDA" class="0">
+<net name="A4" class="0">
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="18/A4"/>
 <wire x1="190.5" y1="86.36" x2="195.58" y2="86.36" width="0.1524" layer="91"/>
@@ -14887,7 +14887,7 @@ Open Source Sockets for IoT</text>
 <label x="110.49" y="140.97" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
-<net name="SCK" class="0">
+<net name="D13" class="0">
 <segment>
 <wire x1="129.54" y1="101.6" x2="134.62" y2="101.6" width="0.1524" layer="91"/>
 <label x="134.62" y="101.6" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
@@ -14899,7 +14899,7 @@ Open Source Sockets for IoT</text>
 <label x="154.94" y="76.2" size="1.016" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="MISO" class="0">
+<net name="D11" class="0">
 <segment>
 <wire x1="129.54" y1="99.06" x2="134.62" y2="99.06" width="0.1524" layer="91"/>
 <label x="134.62" y="99.06" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
@@ -14911,7 +14911,7 @@ Open Source Sockets for IoT</text>
 <label x="154.94" y="81.28" size="1.016" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="MOSI" class="0">
+<net name="D12" class="0">
 <segment>
 <wire x1="129.54" y1="96.52" x2="134.62" y2="96.52" width="0.1524" layer="91"/>
 <label x="134.62" y="96.52" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
@@ -14923,7 +14923,7 @@ Open Source Sockets for IoT</text>
 <label x="154.94" y="78.74" size="1.016" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="!CS" class="0">
+<net name="D10" class="0">
 <segment>
 <wire x1="129.54" y1="93.98" x2="134.62" y2="93.98" width="0.1524" layer="91"/>
 <label x="134.62" y="93.98" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
@@ -14935,7 +14935,7 @@ Open Source Sockets for IoT</text>
 <label x="154.94" y="83.82" size="1.016" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="SS2" class="0">
+<net name="D4" class="0">
 <segment>
 <wire x1="129.54" y1="91.44" x2="134.62" y2="91.44" width="0.1524" layer="91"/>
 <label x="134.62" y="91.44" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
@@ -14947,7 +14947,7 @@ Open Source Sockets for IoT</text>
 <label x="154.94" y="99.06" size="1.016" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="SS1" class="0">
+<net name="D5" class="0">
 <segment>
 <wire x1="129.54" y1="88.9" x2="134.62" y2="88.9" width="0.1524" layer="91"/>
 <label x="134.62" y="88.9" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
@@ -14959,7 +14959,7 @@ Open Source Sockets for IoT</text>
 <label x="154.94" y="96.52" size="1.016" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="IO2" class="0">
+<net name="D2" class="0">
 <segment>
 <wire x1="129.54" y1="86.36" x2="134.62" y2="86.36" width="0.1524" layer="91"/>
 <label x="134.62" y="86.36" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
@@ -14971,7 +14971,7 @@ Open Source Sockets for IoT</text>
 <label x="154.94" y="104.14" size="1.016" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="IO1" class="0">
+<net name="D3" class="0">
 <segment>
 <wire x1="129.54" y1="83.82" x2="134.62" y2="83.82" width="0.1524" layer="91"/>
 <label x="134.62" y="83.82" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
@@ -14983,7 +14983,7 @@ Open Source Sockets for IoT</text>
 <label x="154.94" y="101.6" size="1.016" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="!IRQ" class="0">
+<net name="A1" class="0">
 <segment>
 <wire x1="129.54" y1="81.28" x2="134.62" y2="81.28" width="0.1524" layer="91"/>
 <label x="134.62" y="81.28" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
@@ -14995,7 +14995,7 @@ Open Source Sockets for IoT</text>
 <label x="195.58" y="78.74" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
-<net name="!RTS" class="0">
+<net name="A6" class="0">
 <segment>
 <wire x1="129.54" y1="76.2" x2="134.62" y2="76.2" width="0.1524" layer="91"/>
 <label x="134.62" y="76.2" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
@@ -15007,7 +15007,7 @@ Open Source Sockets for IoT</text>
 <label x="195.58" y="91.44" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
-<net name="!CTS" class="0">
+<net name="A2" class="0">
 <segment>
 <wire x1="129.54" y1="73.66" x2="134.62" y2="73.66" width="0.1524" layer="91"/>
 <label x="134.62" y="73.66" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
@@ -15019,7 +15019,7 @@ Open Source Sockets for IoT</text>
 <label x="195.58" y="81.28" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
-<net name="!RI" class="0">
+<net name="A9" class="0">
 <segment>
 <wire x1="76.2" y1="76.2" x2="73.66" y2="76.2" width="0.1524" layer="91"/>
 <label x="73.66" y="76.2" size="1.016" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
@@ -15031,7 +15031,7 @@ Open Source Sockets for IoT</text>
 <label x="195.58" y="99.06" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
-<net name="!DCD" class="0">
+<net name="A8" class="0">
 <segment>
 <wire x1="76.2" y1="73.66" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
 <label x="73.66" y="73.66" size="1.016" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
@@ -15043,7 +15043,7 @@ Open Source Sockets for IoT</text>
 <label x="195.58" y="96.52" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
-<net name="!DSR" class="0">
+<net name="A7" class="0">
 <segment>
 <wire x1="76.2" y1="71.12" x2="73.66" y2="71.12" width="0.1524" layer="91"/>
 <label x="73.66" y="71.12" size="1.016" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
@@ -15055,7 +15055,7 @@ Open Source Sockets for IoT</text>
 <label x="195.58" y="93.98" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
-<net name="!DTR" class="0">
+<net name="A3" class="0">
 <segment>
 <wire x1="76.2" y1="68.58" x2="73.66" y2="68.58" width="0.1524" layer="91"/>
 <label x="73.66" y="68.58" size="1.016" layer="95" font="vector" ratio="10" rot="R180" xref="yes"/>
@@ -15106,7 +15106,7 @@ Open Source Sockets for IoT</text>
 <label x="110.49" y="180.34" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
-<net name="RXD3" class="0">
+<net name="D7" class="0">
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="7"/>
 <wire x1="160.02" y1="91.44" x2="154.94" y2="91.44" width="0.1524" layer="91"/>
@@ -15118,7 +15118,7 @@ Open Source Sockets for IoT</text>
 <label x="110.49" y="157.48" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
-<net name="TXD3" class="0">
+<net name="D8" class="0">
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="8"/>
 <wire x1="160.02" y1="88.9" x2="154.94" y2="88.9" width="0.1524" layer="91"/>
@@ -15130,7 +15130,7 @@ Open Source Sockets for IoT</text>
 <label x="110.49" y="160.02" size="1.016" layer="95" font="vector" ratio="10" xref="yes"/>
 </segment>
 </net>
-<net name="RXD1" class="0">
+<net name="D0" class="0">
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="0"/>
 <wire x1="160.02" y1="109.22" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
@@ -15142,7 +15142,7 @@ Open Source Sockets for IoT</text>
 <pinref part="TSOC" gate="TSOC" pin="RXD"/>
 </segment>
 </net>
-<net name="TXD1" class="0">
+<net name="D1" class="0">
 <segment>
 <pinref part="TEENSY" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="106.68" x2="154.94" y2="106.68" width="0.1524" layer="91"/>

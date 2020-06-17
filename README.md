@@ -7,7 +7,7 @@ and/or [Grove System](http://www.seeedstudio.com/blog/2016/03/09/tutorial-intro-
 Modules all at the same time, either standalone, or with any other thingSoC Processor or Radio module.
 This gives you maximum flexiblity for sensor and actuator selection and reuse. 
 
-[![thingSoC TSOC_TEENSY3X](https://github.com/thingSoC/TSOC_Teensy3x/blob/master/TSOC_Teensy3x/images/product/TSOC_Teensy3x.png?raw=true)TSOC_TEENSY3X](https://github.com/thingSoC/TSOC_TEENSY3X)
+[![thingSoC TSOC_TEENSY3X](https://github.com/thingSoC/TSOC_Teensy3x/blob/master/TSOC_Teensy3x/images/product/TSOC_Teensy3x_with_Grove2.png?raw=true)TSOC_TEENSY3X](https://github.com/thingSoC/TSOC_TEENSY3X)
 
 The thingSoC "Grovey Series" was designed as "Everyday Electronics", a no-frills, low cost, approach to modular embedded product design.
 thingSoC boards are similar in size to most break-out-boards (BOBs), but feature a standardized stacking pinout, as well as an I2C metadata store (EEPROM)

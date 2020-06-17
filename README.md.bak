@@ -50,17 +50,15 @@ What the **TSOC_Teensy3x** adaptor board provides is an easy "plug-n-play" way t
 ## TSOC_TEENSY3X Status <a name="TSOC_TEENSY3X_status"/>
 
 **09/02/2016:** 
-Revision 1.0 - Initial Layout 
+Revision 1.0 - Initial Layout - SPI PINS D11/D12 reversed!
+Revision 2.0 - Fix SPI Pins, add Analog I/O
 
 
 ---------------------------------------
-## TSOC_TEENSY3X Model Images
+## TSOC_TEENSY3X Images
 
 
-[![thingSoC TSOC_TEENSY3X](https://github.com/thingSoC/TSOC_Teensy3x/blob/master/TSOC_Teensy3x/images/TSOC_Teensy3x_top.png?raw=true)TSOC_TEENSY3X](https://github.com/thingSoC/TSOC_TEENSY3X)
-
-
-[![thingSoC TSOC_TEENSY3X](https://github.com/thingSoC/TSOC_Teensy3x/blob/master/TSOC_Teensy3x/images/TSOC_Teensy3x_bot.png?raw=true)TSOC_TEENSY3X](https://github.com/thingSoC/TSOC_TEENSY3X)
+[![thingSoC TSOC_TEENSY3X](https://github.com/thingSoC/TSOC_Teensy3x/blob/master/TSOC_Teensy3x/images/product/TSOC_Teensy3x_with_Grove.png?raw=true)TSOC_TEENSY3X](https://github.com/thingSoC/TSOC_TEENSY3X)
 
 
 ---------------------------------------
